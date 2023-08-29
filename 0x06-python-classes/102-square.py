@@ -23,7 +23,7 @@ class Square:
         Returns:
             float or int: The size of the square's sides.
         """
-        return self.__size
+        return (self.__size)
 
     @size.setter
     def size(self, value):
@@ -50,7 +50,7 @@ class Square:
         Returns:
             float or int: The area of the square.
         """
-        return self.__size ** 2
+        return (self.__size ** 2)
 
     def __eq__(self, other):
         """
@@ -62,7 +62,7 @@ class Square:
         Returns:
             bool: True if the areas are equal, False otherwise.
         """
-        return self.area() == other.area()
+        return (self.area() == other.area())
 
     def __ne__(self, other):
         """
@@ -74,7 +74,7 @@ class Square:
         Returns:
             bool: True if the areas are different, False otherwise.
         """
-        return self.area() != other.area()
+        return (self.area() != other.area())
 
     def __lt__(self, other):
         """
